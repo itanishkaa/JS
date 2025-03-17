@@ -30,7 +30,9 @@ A quiz application that presents multiple-choice questions to the user and evalu
 **1. Countdown Timer**
 - `startCountdown()`: Initializes the countdown using setInterval. It decrements the time every second and updates the display. When the timer reaches zero, it clears the interval and triggers an alert.
 - **Snowflake Animation**: A dynamic snow effect is achieved by creating multiple `div` elements representing snowflakes and animating their movement across the screen using JavaScript's `setInterval` and `Math.random()` to randomize their positions.
+
 **Key Concepts:** 
+
 - DOM manipulation: Accessing and updating the inner text of elements.
 - Timer functions: Using `setInterval` for continuous updates.
 - Event listeners: Triggering countdown start on user interaction.
@@ -39,7 +41,9 @@ A quiz application that presents multiple-choice questions to the user and evalu
 - `stopDrawing()`: Ends the drawing when the user releases the mouse button.
 - `changeBrushSize()`: Dynamically adjusts the brush size based on user input from the interface.
 - `changeColor()`: Changes the brush color when the user selects a new color.
+
 **Key Concepts:**
+
 - Canvas API: Use of `getContext('2d')` to draw paths, lines, and shapes on a canvas.
 - Event handling: Responding to `mousedown`, `mousemove`, and `mouseup` events to track the user's actions.
 - State management: Storing and updating variables for brush size and color.
@@ -48,7 +52,9 @@ A quiz application that presents multiple-choice questions to the user and evalu
 - `submitAnswer()`: Validates the selected answer and updates the score accordingly.
 - `nextQuestion()`: Advances to the next question in the quiz.
 - `showResult()`: Displays the total score once the user completes the quiz.
+
 **Key Concepts:**
+
 - DOM manipulation: Dynamically creating HTML elements based on question data.
 - Event listeners: Handling user interactions for answer selection and navigation.
 - Data structures: Using arrays or objects to store questions and answers.
