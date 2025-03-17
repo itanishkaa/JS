@@ -36,6 +36,7 @@ A quiz application that presents multiple-choice questions to the user and evalu
 - DOM manipulation: Accessing and updating the inner text of elements.
 - Timer functions: Using `setInterval` for continuous updates.
 - Event listeners: Triggering countdown start on user interaction.
+
 **2. Drawing App**
 - `startDrawing()`: Begins drawing when the user clicks and drags the mouse, setting the initial drawing coordinates and connecting them with lines.
 - `stopDrawing()`: Ends the drawing when the user releases the mouse button.
@@ -47,6 +48,7 @@ A quiz application that presents multiple-choice questions to the user and evalu
 - Canvas API: Use of `getContext('2d')` to draw paths, lines, and shapes on a canvas.
 - Event handling: Responding to `mousedown`, `mousemove`, and `mouseup` events to track the user's actions.
 - State management: Storing and updating variables for brush size and color.
+
 **3. Quiz App**
 - `loadQuestion()`: Dynamically loads the current question and its answer options into the DOM.
 - `submitAnswer()`: Validates the selected answer and updates the score accordingly.
